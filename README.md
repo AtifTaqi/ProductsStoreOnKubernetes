@@ -160,13 +160,12 @@ $ docker push $registry/mvc-app:1.0
 ### 10) Discussion points  
 scalability, health check, mounting volume, resource limits, service discovery, deploy with Helm...  
 
-### 11) More resources
+### ⚙️ Connect with Me
 
-eShopOnContainers: https://github.com/dotnet-architecture/eShopOnContainers
-
-https://www.udemy.com/kubernetes-for-developers/
-Please email me if you want a free coupon :)  
-
-<a href="https://www.udemy.com/kubernetes-for-developers/">
-<img src="https://github.com/HoussemDellai/ProductsStoreOnKubernetes/blob/master/images/udemy-courses.png?raw=true" width="90%"/>
-</a>
+<!-- ----------- CONNECT WITH ME SECTION ------------ -->
+<p align="center">
+<a href="mailto:Atiftaqi_cloud@yahoo.com"><img src="https://img.shields.io/badge/Mail-D14936?style=for-the-badge&logo=gmail&logoColor=blue"/></a>
+<a href="https://www.linkedin.com/in/atiftaqi"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> 
+<a href="https://wa.me/%2B918686699660?text=This%20message%20from%20GitHub."><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+  </a></p>
+</div>
