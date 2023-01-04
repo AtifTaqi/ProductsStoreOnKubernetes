@@ -47,9 +47,11 @@ jobs:
           username: ${{ secrets.DOCKER_REPOSITORY }}
           password: ${{ secrets.DOCKER_REPOSITORY_PASSWORD }}
   
+    - name: Initiating build/push Docker Repository
+      uses: docker/build-push-action@v2
+    
     - name: Push Image to Docker Repository
-      run:
-        docker push $DOCKER_REPOSITORY/$IMAGE_NAME:$GITHUB_RUN_NUMBER
+      run: docker push $DOCKER_REPOSITORY/$IMAGE_NAME:$GITHUB_RUN_NUMBER
    
     - uses: cschleiden/replace-tokens@v1
       with:
