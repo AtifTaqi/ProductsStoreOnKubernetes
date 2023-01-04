@@ -14,7 +14,7 @@ jobs:
   build-deploy-aks:
     runs-on: ubuntu-latest
     env:
-      DOCKER_REPOSITORY: registry.hub.docker.com/atiftaqi/docker-hub-atif # name of Docker Hub container Registry
+      DOCKER_REPOSITORY: docker-hub-atif # name of Docker Hub container Registry
       IMAGE_NAME: webapp
       IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER
       
