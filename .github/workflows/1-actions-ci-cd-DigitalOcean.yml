@@ -14,12 +14,12 @@ jobs:
   build-deploy-aks:
     runs-on: ubuntu-latest
     env:
-      DOCKER_REPOSITORY: docker-hub-atif # name of Docker Hub container Registry
+      DOCKER_REPOSITORY: atiftaqi # name of Docker Hub container Registry
       IMAGE_NAME: webapp
       IMAGE_TAG: ${{ github.run_number }} # $GITHUB_RUN_NUMBER
       
-      CLUSTER_NAME: docker-hub-atif
-      RESOURSE_GROUP: docker-hub-atif
+      CLUSTER_NAME: azure-kubernetes-cluster-atif
+      RESOURSE_GROUP: aks-atif
     
     steps:
 
